@@ -16,8 +16,13 @@
         }else{
           rsort($array);
           echo "降順にソートします。<br>";
-
         }
+
+        //ソートされた配列の各要素を表示
+        foreach ($array as $value) {
+          echo $value . "<br>";
+        }
+    
       }
 
       $nums = [15,4,18,23,10];
